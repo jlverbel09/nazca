@@ -1,0 +1,23 @@
+:root {
+  /* Colores Principales del Logo y Fondo Superior */
+  --color-nazca-oro-vibrante: #FFC000;
+  --color-nazca-ocre-oscuro: #9A6700;
+
+  /* Colores del Fondo Inferior (Líneas de Nazca) */
+  --color-nazca-rojo-tierra: #D94A3D;
+  --color-nazca-borgoña-profundo: #8B0000;
+
+  /* Colores Neutros */
+  --color-nazca-blanco: #FFFFFF;
+  --color-nazca-negro: #000000;
+
+  
+  /* Colores de Texto y Elementos Clave del Menú */
+  --color-menu-borgoña-profundo: #8D1C1B; /* Rojo ladrillo para títulos (PISCO SOUR) */
+  --color-menu-naranja-icono: #FF8C00;      /* Naranja brillante (icono de fruta) */
+  --color-menu-blanco-texto: #FFFFFF;      /* Blanco para el texto de ingredientes */
+
+  /* Colores del Fondo Texturizado del Menú */
+  --color-menu-beige-claro: #D6C29E;       /* Tono beige tostado claro */
+  --color-menu-marrón-textura: #B4A180;    /* Tono marrón oscuro y terroso de la textura */
+}

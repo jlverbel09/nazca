@@ -1,0 +1,16 @@
+:root{
+    --color-principal: #E58F00;
+    --color-principal-claro: #6c4e1e;
+    --color-secundario: #121212;
+    --color-negro: #000;
+    --color-blanco: #fff;
+    --color-fondo: #181a1b;
+    --color-texto-oscuro:#9e9689;
+}
+
+.text-principal{
+    color: var(--color-principal) !important; 
+}
+.text-oscuro{
+    background-color: #9e9689 !important;
+}
