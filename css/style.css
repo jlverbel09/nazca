@@ -436,6 +436,8 @@ button:focus {
     padding: 12px 40px;
     border: none;
     border-radius: 4px;
+        margin: 5px 0px;
+    width: 24%;
 }
 
 .filter-button-group button.active {
@@ -805,6 +807,8 @@ button:focus {
     background-size: cover;
     background-position: 0 0;
     position: relative;
+    
+    background-position-y: bottom;
 }
 
 .all-page-title .container {
@@ -1501,5 +1505,5 @@ blockquote {
 .icono2 {
     right: 0;
     position: absolute;
-    margin-top: -32px;
+    margin-top: 45px;
 }

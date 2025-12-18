@@ -122,6 +122,12 @@
 		width: 47%;
 		margin: 4px;
 	}
+	.lightbox{
+		width: 100%;
+	}
+	.galeria{
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
 }
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {

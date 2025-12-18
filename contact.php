@@ -5,7 +5,7 @@
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1>Contact</h1>
+				<h1>Contáctanos</h1>
 			</div>
 		</div>
 	</div>
@@ -13,14 +13,16 @@
 <!-- End All Pages -->
 
 <!-- Start Contact -->
-<div class="map-full"></div>
+<div class="map-full">
+	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6074.180914581879!2d-3.6480157245163785!3d40.42899585489352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f43c5deb5b5%3A0x2af800cb0987d919!2sNazca%20Restaurante!5e0!3m2!1ses!2ses!4v1766075452944!5m2!1ses!2ses" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 <div class="contact-box">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="heading-title text-center">
-					<h2>Contact</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+					<h2>Contáctanos</h2>
+					<p>¡Estamos cerca de ti! ¿Dudas o reservas? Envíanos un mensaje y vive la experiencia NAZCA.</p>
 				</div>
 			</div>
 		</div>
@@ -30,36 +32,23 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Nombre Completo" required data-error="Please enter your name">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+								<input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person">
-									<option disabled selected>Please Select Person*</option>
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4">4</option>
-									<option value="5">5</option>
-								</select>
-								<div class="help-block with-errors"></div>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
+								<textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Escribe tu mensaje" required></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="submit-button text-center">
-								<button class="btn btn-common text-light" id="submit" type="submit">Send Message</button>
+								<button class="btn btn-common text-light" id="submit" type="submit">Enviar Mensaje</button>
 								<div id="msgSubmit" class="h3 text-center hidden"></div>
 								<div class="clearfix"></div>
 							</div>
@@ -76,7 +65,7 @@
  
 <script src="js/jquery.mapify.js"></script>
 <script>
-		$('.map-full').mapify({
+		/* $('.map-full').mapify({
 			points: [
 				{
 					lat: 40.7143528,
@@ -86,5 +75,5 @@
 					infoWindow: 'Yamifood Restaurant'
 				}
 			]
-		});	
+		});	 */
 	</script>

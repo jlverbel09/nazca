@@ -4,7 +4,7 @@
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1>Reservation</h1>
+				<h1>Reservar</h1>
 			</div>
 		</div>
 	</div>
@@ -17,8 +17,8 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="heading-title text-center">
-					<h2>Reservation</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+					<!-- <h2>Reserva</h2> -->
+					<p>Realiza tu reserva aquí te estaremos esperando!</p>
 				</div>
 			</div>
 		</div>
@@ -26,25 +26,19 @@
 			<div class="col-lg-12 col-sm-12 col-xs-12">
 				<div class="contact-block">
 					<form id="contactForm">
-						<div class="row">
+						<div class="row justify-content-center">
 							<div class="col-md-6">
-								<h3 class="text-light">Book a table</h3>
+								<h3 class="text-light">Datos de la Reserva</h3>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input id="input_date" class="datepicker picker__input form-control" name="date" type="text" value="" equired data-error="Please enter Date">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input id="input_time" class="time form-control picker__input" required data-error="Please enter time">
+										<input id="input_date" class="datepicker picker__input form-control" placeholder="A Nombre De*" name="date" type="text" value="" equired data-error="Please enter Date">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
 										<select class="custom-select d-block form-control" id="person" required data-error="Please select Person">
-											<option disabled selected>Select Person*</option>
+											<option disabled selected>Cantidad de personas*</option>
 											<option value="1">1</option>
 											<option value="2">2</option>
 											<option value="3">3</option>
@@ -56,8 +50,41 @@
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
+
+								<div class="col-md-12 row m-0 p-0">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Fecha</label>
+											<input id="input_date" class="datepicker picker__input form-control" placeholder="A Nombre De*" name="date" type="date" value="" equired data-error="Please enter Date">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Hora</label>
+											<select class="custom-select d-block form-control" id="person" required data-error="Please select Person">
+												<option disabled selected>Seleccionar*</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+											</select>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea rows="5" id="input_time" class="time form-control picker__input" placeholder="Comentario o indicaciones adicionales" required data-error="Please enter time"></textarea>
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
 							</div>
-							<div class="col-md-6">
+							<!-- <div class="col-md-6">
 								<h3 class="text-light">Contact Details</h3>
 								<div class="col-md-12">
 									<div class="form-group">
@@ -77,10 +104,10 @@
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							<div class="col-md-12">
 								<div class="submit-button text-center">
-									<button class="btn btn-common text-light" id="submit" type="submit">Book Table</button>
+									<button class="btn btn-common text-light" id="submit" type="submit">Reservar</button>
 									<div id="msgSubmit" class="h3 text-center hidden"></div>
 									<div class="clearfix"></div>
 								</div>
@@ -95,51 +122,7 @@
 <!-- End Reservation -->
 
 <!-- Start Customer Reviews -->
-<div class="customer-reviews-box">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="heading-title text-center">
-					<h2>Customer Reviews</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 mr-auto ml-auto text-center">
-				<div id="reviews" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner mt-4">
-						<?php
-						for ($i = 0; $i < 3; $i++) {
-							if($i==0){$active = 'active';}else{$active = '';}
-						?>
-
-							<div class="carousel-item text-center <?= $active?>">
-								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/profile/profile-1.jpg" alt="">
-								</div>
-								<h5 class="mt-4 mb-0"><strong class="h4 text-principal text-uppercase">Paul Mitchel</strong></h5>
-								<h6 class="text-white m-0">Web Developer</h6>
-								<p class="m-0 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-							</div>
-
-						<?php
-						}
-						?>
-					</div>
-					<a class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
-						<i class="fa fa-angle-left" aria-hidden="true"></i>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#reviews" role="button" data-slide="next">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<?php include 'reseñasGlobal.php' ?>
 <!-- End Customer Reviews -->
 
 

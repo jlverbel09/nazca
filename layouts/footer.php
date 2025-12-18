@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <h3>Sobre Nosotros</h3>
-                <p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui, at ornare turpis ultrices sit amet. Nulla cursus lorem ut nisi porta, ac eleifend arcu ultrices.</p>
+                <p>La cocina peruana es una combinación de influencias culturales gastronómicas que acaba siendo un deleite para los seguidores de la gastronomía peruana.</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3>Horario de Atención</h3>

@@ -6,7 +6,7 @@
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1>Special Menu</h1>
+				<h1>Nuestro Menú</h1>
 			</div>
 		</div>
 	</div>
@@ -14,120 +14,15 @@
 <!-- End All Pages -->
 
 <!-- Start Menu -->
-<div class="menu-box">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="heading-title text-center">
-					<h2>Special Menu</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="special-menu text-center">
-					<div class="button-group filter-button-group">
-						<button class="active" data-filter="*">All</button>
-						<button data-filter=".drinks">Drinks</button>
-						<button data-filter=".lunch">Lunch</button>
-						<button data-filter=".dinner">Dinner</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row special-list">
-
-			<?php
-			for ($i = 0; $i < 15; $i++) {
-			?>
-				<div class="col-lg-4 col-md-6 special-grid drinks px-1">
-					<div class="gallery-single fix m-2">
-						<img src="images/menu/img-01.jpg" class="img-fluid" alt="Image">
-						<div class="why-text">
-							<h4>Special Drinks 1</h4>
-							<p>Sed id magna vitae eros sagittis euismod.</p>
-							<h5> $7.79</h5>
-						</div>
-					</div>
-				</div>
-
-			<?php
-			}
-
-			?>
-
-
-
-
-		</div>
-	</div>
-</div>
+  <?php include 'menuGlobal.php' ?>
 <!-- End Menu -->
 
 <!-- Start QT -->
-<div class="qt-box qt-background">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 ml-auto mr-auto text-left">
-				<p class="lead ">
-					" If you're not the one cooking, stay out of the way and compliment the chef. "
-				</p>
-				<span class="lead">Michael Strahan</span>
-			</div>
-		</div>
-	</div>
-</div>
+<?php include 'frase.php' ?>
 <!-- End QT -->
 
 <!-- Start Customer Reviews -->
-<div class="customer-reviews-box">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="heading-title text-center">
-					<h2>Customer Reviews</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 mr-auto ml-auto text-center">
-				<div id="reviews" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner mt-4">
-						<?php
-						for ($i = 0; $i < 3; $i++) {
-							if($i==0){$active = 'active';}else{$active = '';}
-						?>
-
-							<div class="carousel-item text-center <?= $active?>">
-								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/profile/profile-1.jpg" alt="">
-								</div>
-								<h5 class="mt-4 mb-0"><strong class="h4 text-principal text-uppercase">Paul Mitchel</strong></h5>
-								<h6 class="text-light m-0">Web Developer</h6>
-								<p class="m-0 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-							</div>
-
-						<?php
-						}
-						?>
-					</div>
-					<a class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
-						<i class="fa fa-angle-left" aria-hidden="true"></i>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#reviews" role="button" data-slide="next">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<?php include 'reseñasGlobal.php' ?>
 <!-- End Customer Reviews -->
-
 
 <?php include './layouts/footer.php';
