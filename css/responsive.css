@@ -101,10 +101,21 @@
 
 	.navbar-brand img {
 		width: 125px;
+		top: 9px;
 	}
 
 	.navbar-light .navbar-toggler-icon {
 		background-color: #e58f00;
+	}
+
+
+	.videoinicial video {
+		width: 80%;
+	}
+
+	.navbar-collapse {
+		position: relative;
+		top: 10px;
 	}
 
 	.icono1 {
@@ -115,18 +126,24 @@
 
 	.icono2 {
 		width: 135px;
-		margin-top: 230px;
+		margin-top: 458px;
 	}
 
 	.filter-button-group button {
-		width: 47%;
+		width: 97%;
 		margin: 4px;
 	}
-	.lightbox{
+
+	.lightbox {
 		width: 100%;
 	}
-	.galeria{
+
+	.galeria {
 		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
+
+	.slides-navigation {
+		display: none;
 	}
 }
 

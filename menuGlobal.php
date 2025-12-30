@@ -13,40 +13,27 @@
             <div class="col-lg-12">
                 <div class="special-menu text-center">
                     <div class="button-group filter-button-group">
-                        <button class="active" data-filter="*">Todo</button>
-                        <button data-filter=".drinks">Cevichería</button>
-                        <button data-filter=".lunch">Anticuchos/Brasería</button>
-                        <button data-filter=".dinner">Criollos</button>
-                        <button data-filter=".dinner">Kids</button>
-                        <button data-filter=".dinner">Refrescos</button>
-                        <button data-filter=".dinner">Esp. Marinos</button>
+                        <button class="active" data-filter="*">TODO</button>
+                        <button data-filter=".cocteles">COCTELES</button>
+                        <button data-filter=".empezamos">EMPEZAMOS</button>
+                        <button data-filter=".cevicheria">CEVICHERÍA</button>
+                        <button data-filter=".anticuchos-braseria">ANTICUCHOS/BRASERÍA</button>
+                        <button data-filter=".criollos">CRIOLLOS</button>
+                        <button data-filter=".mejor-mar">LO MEJOR DEL MAR</button>
+                        <button data-filter=".especiales-fin-semana">ESP. FIN DE SEMANA</button>
+                        <button data-filter=".especiales-marinos">ESP. MARINOS</button>
+                        <button data-filter=".raciones">RACIONES</button>
+                        <button data-filter=".kids">OPCIONES KIDS</button>
+                        <button data-filter=".refrescos">REFRESCOS</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row special-list">
 
-            <?php
-            for ($i = 1; $i < 40; $i++) {
-            ?>
-                <div class="col-lg-4 col-md-6 special-grid drinks px-1">
-                    <div class="gallery-single fix m-2">
-                       <!--  <img src="images/menu/<?= $i ?>.jpeg" class="img-fluid" alt="Image"> -->
-                        <img src="images/productos/<?= $i ?>.jpeg" class="img-fluid" alt="Image">
-                        <div class="why-text">
-                            <h4>Special Drinks 1</h4>
-                            <p>Sed id magna vitae eros sagittis euismod.</p>
-                            <h5> $7.79</h5>
-                        </div>
-                    </div>
-                </div>
 
-            <?php
-            }
-
-            ?>
-
+        <div class="row special-list h-auto" id="listaMenu">
+            <div id="menu-loading" style="text-align: center; padding: 20px;">Cargando menú...</div>
         </div>
     </div>
 </div>

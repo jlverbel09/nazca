@@ -27,7 +27,7 @@
 						<h1 class="m-b-20"><strong>Bienvenidos a <br> <b class="texto-principal-bordeado">NAZCA</b> <br><small>Restaurante & Pisco Bar</small></strong></h1>
 						<p class="m-b-40">Historia que se bebe, tradición que se saborea. <br>
 							Alta cocina y Pisco con raíces milenarias.</p>
-						<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservación</a></p>
+						<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="reservation.php">Reservación</a></p>
 					</div>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 					<div class="col-md-12">
 						<h1 class="m-b-20"><strong>Bienvenidos a <br> <b class="texto-principal-bordeado">NAZCA</b> <br><small>Restaurante & Pisco Bar</small></strong></h1>
 						<p class="m-b-40">Una joya gastronómica que cautiva tus sentidos. ¡Ven y deléitate!.</p>
-						<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservación</a></p>
+						<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="reservation.php">Reservación</a></p>
 					</div>
 				</div>
 			</div>
