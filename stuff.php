@@ -13,6 +13,8 @@
 <!-- End All Pages -->
 
 <!-- Start Stuff -->
+<img class="icono3 pequeño" src="./images/icono3.png" alt="">
+<img class="icono4 pequeño" src="./images/icono4.png" alt="">
 <div class="stuff-box">
 	<div class="container">
 		<div class="row">
@@ -54,7 +56,7 @@
 <!-- End Stuff -->
 
 <!-- Start Customer Reviews -->
- <?php include 'reseñasGlobal.php' ?>
+<?php include 'reseñasGlobal.php' ?>
 <!-- End Customer Reviews -->
 
 

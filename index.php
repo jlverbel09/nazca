@@ -62,10 +62,12 @@
 <!-- End QT -->
 
 <!-- Start Menu -->
- <?php include 'menuGlobal.php' ?>
+<?php include 'menuGlobal.php' ?>
 <!-- End Menu -->
 
 <!-- Start Gallery -->
+<img class="icono3" src="./images/icono3.png" alt="">
+<img class="icono4" src="./images/icono4.png" alt="">
 <?php include 'galeriaGlobal.php' ?>
 <!-- End Gallery -->
 

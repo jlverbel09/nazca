@@ -13,11 +13,13 @@
 <!-- End header -->
 
 <!-- Start About -->
- <?php include 'historia.php' ?>
+<img class="icono3 pequeño" src="./images/icono3.png" alt="">
+<img class="icono4 pequeño" src="./images/icono4.png" alt="">
+<?php include 'historia.php' ?>
 <!-- End About -->
 
 <!-- Start Menu -->
-  <?php include 'menuGlobal.php' ?>
+<?php include 'menuGlobal.php' ?>
 <!-- End Menu -->
 
 

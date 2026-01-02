@@ -17,24 +17,27 @@
 		var nombre = document.getElementById('nombreCompleto').value;
 		var mensaje = document.getElementById('mensaje').value;
 
-		if(nombre == ''){
+		if (nombre == '') {
 			alert('Ingresa tu nombre')
-		}else if(mensaje == ''){
+		} else if (mensaje == '') {
 			alert('Ingresa tu mensaje')
-		}else {
-			window.open("https://api.whatsapp.com/send?phone=34640686489&text=Hola+%F0%9F%91%8B%F0%9F%8D%B3+%2ARestarante+Nazca%2A++%F0%9F%8D%B4%0AMi+nombre+es+"+nombre+"%0AMensaje%3A+"+mensaje, '_blank')
-			
+		} else {
+			window.open("https://api.whatsapp.com/send?phone=34640686489&text=Hola+%F0%9F%91%8B%F0%9F%8D%B3+%2ARestarante+Nazca%2A++%F0%9F%8D%B4%0AMi+nombre+es+" + nombre + "%0AMensaje%3A+" + mensaje, '_blank')
+
 		}
 
 	}
 </script>
 <!-- Start Contact -->
 <div class="map-full">
-	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6074.180914581879!2d-3.6480157245163785!3d40.42899585489352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f43c5deb5b5%3A0x2af800cb0987d919!2sNazca%20Restaurante!5e0!3m2!1ses!2ses!4v1766075452944!5m2!1ses!2ses" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6074.180914581879!2d-3.6480157245163785!3d40.42899585489352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f43c5deb5b5%3A0x2af800cb0987d919!2sNazca%20Restaurante!5e0!3m2!1ses!2ses!4v1766075452944!5m2!1ses!2ses" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+<img class="icono3 pequeño" src="./images/icono3.png" alt="">
+<img class="icono4 pequeño" src="./images/icono4.png" alt="">
 <div class="contact-box">
 	<div class="container">
 		<div class="row">
+
 			<div class="col-lg-12">
 				<div class="heading-title text-center">
 					<h2>Contáctanos</h2>
@@ -77,11 +80,11 @@
 </div>
 <!-- End Contact -->
 
- <?php include './layouts/footer.php' ?>
- 
+<?php include './layouts/footer.php' ?>
+
 <script src="js/jquery.mapify.js"></script>
 <script>
-		/* $('.map-full').mapify({
+	/* $('.map-full').mapify({
 			points: [
 				{
 					lat: 40.7143528,
@@ -92,4 +95,4 @@
 				}
 			]
 		});	 */
-	</script>
+</script>

@@ -18,22 +18,24 @@
 		var hora = document.getElementById('hora').value;
 		var comentarios = document.getElementById('comentarios').value;
 
-		if(anombrede == ''){
+		if (anombrede == '') {
 			alert('Ingresa el nombre de la persona a quien estará a cargo la reserva')
-		}else if(cantidadPersonas == ''){
+		} else if (cantidadPersonas == '') {
 			alert('Selecciona la cantidad de personas')
-		}else if(fecha == ''){
+		} else if (fecha == '') {
 			alert('Selecciona la fecha de la reserva')
-		}else if(hora == ''){
+		} else if (hora == '') {
 			alert('Selecciona la hora de la reserva')
-		}else {
+		} else {
 			window.open("https://api.whatsapp.com/send?phone=34640686489&text=%2A🍴Bienvenido%28a%29+a+Restaurante+Nazca+🧑🏻%E2%80%8D🍳🙂%2A%0ARealizar+mi+reserva%0A%0A%2AA+Nombre+de%3A%2A+" + anombrede + "%0A%2ACantidad+de+Personas%3A%2A++" + cantidadPersonas + "%0A%2AFecha%3A%2A++" + fecha + "%0A%2AHora%3A%2A+" + hora + "%0A%2ADetalles+Adicionales%3A%2A+" + comentarios, '_blank')
-			
+
 		}
 
 	}
 </script>
 <!-- Start Reservation -->
+<img class="icono3 pequeño" src="./images/icono3.png" alt="">
+<img class="icono4 pequeño" src="./images/icono4.png" alt="">
 <div class="reservation-box">
 	<div class="container">
 		<div class="row">

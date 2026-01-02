@@ -13,7 +13,9 @@
 <!-- End All Pages -->
 
 <!-- Start Gallery -->
- <?php include 'galeriaGlobal.php' ?>
+<img class="icono3 pequeño" src="./images/icono3.png" alt="">
+<img class="icono4 pequeño" src="./images/icono4.png" alt="">
+<?php include 'galeriaGlobal.php' ?>
 <!-- End Gallery -->
 
 <!-- Start Customer Reviews -->

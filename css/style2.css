@@ -55,3 +55,26 @@ h6 {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
+.icono3 {
+    position: absolute;
+    width: 25%;
+    margin-top: -40px;
+}
+.icono3.pequeño {
+    width: 15%;
+    margin-top: 60px;
+}
+
+.icono4 {
+   position: absolute;
+    width: 18%;
+    margin-top: -94px;
+    right: 10px;
+}
+
+.icono4.pequeño {
+    width: 10%;
+    margin-top: 20px;
+    right: 10px;
+}
