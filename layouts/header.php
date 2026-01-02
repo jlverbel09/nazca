@@ -15,8 +15,7 @@
     <meta name="author" content="GeorkingWeb">
     <link rel="shortcut icon" href="https://georkingweb.com/nazca/images/logo2.png" type="image/x-icon">
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://georkingweb.com/nazca/images/logo2.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
