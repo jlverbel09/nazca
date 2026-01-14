@@ -33,7 +33,11 @@ $.ajax({
 
         // 1. Insertamos el HTML en el contenedor
         var $container = $('.special-list'); 
-        $container.html(listplato);
+
+        setTimeout(() => {
+            
+            $container.html(listplato);
+        }, 3000);
 
         // 2. Configuramos los botones de filtro
         $('.special-menu').off('click', 'button').on('click', 'button', function () {
