@@ -25,20 +25,38 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<?php for ($i = 0; $i < 3; $i++) {
+		<div class="row justify-content-center">
+			<?php
+			
+				$stuffs = [
+					[
+						'nombre' => 'Anderson',
+						'puesto' => 'Gerente General',
+						'imagen' => 'images/stuff/stuff-img-01.jpg'
+					],
+					/* [
+						'nombre' => 'Sophia',
+						'puesto' => 'Graphic Designer',
+						'imagen' => 'images/stuff/stuff-img-02.jpg'
+					],
+					[
+						'nombre' => 'Liam',
+						'puesto' => 'Project Manager',
+						'imagen' => 'images/stuff/stuff-img-03.jpg'
+					] */
+				];
+			foreach ($stuffs as $i => $stuff) {
 			?>
 
 				<div class="col-md-4 col-sm-6">
 					<div class="our-team">
-						<img src="images/stuff/stuff-img-01.jpg">
+						<img src="<?= $stuffs[$i]['imagen'] ?>">
 						<div class="team-content">
-							<h3 class="title">Williamson</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="title"><?= $stuffs[$i]['nombre'] ?></h3>
+							<span class="post"><?= $stuffs[$i]['puesto'] ?></span>
 							<ul class="social">
 								<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							</ul>
 						</div>
 					</div>
