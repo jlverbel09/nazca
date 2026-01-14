@@ -21,7 +21,7 @@ $.ajax({
            listplato += `
                 <div class="col-lg-4 col-md-6 special-grid ${categoria} px-1">
                     <div class="gallery-single fix m-2">
-                        <img src="${plato.imagen_url || 'images/productos/1.jpeg'}" class="img-fluid" alt="${plato.nombre}">
+                        <img src="${plato.img_url}" class="img-fluid" alt="${plato.nombre}">
                         <div class="why-text">
                             <h4>${plato.nombre}</h4>
                             <p>${plato.descripcion}</p>
