@@ -27,7 +27,7 @@
 		} else if (hora == '') {
 			alert('Selecciona la hora de la reserva')
 		} else {
-			window.open("https://api.whatsapp.com/send?phone=34640686489&text=%2A🍴Bienvenido%28a%29+a+Restaurante+Nazca+🧑🏻%E2%80%8D🍳🙂%2A%0ARealizar+mi+reserva%0A%0A%2AA+Nombre+de%3A%2A+" + anombrede + "%0A%2ACantidad+de+Personas%3A%2A++" + cantidadPersonas + "%0A%2AFecha%3A%2A++" + fecha + "%0A%2AHora%3A%2A+" + hora + "%0A%2ADetalles+Adicionales%3A%2A+" + comentarios, '_blank')
+			window.open("https://api.whatsapp.com/send?phone=34612534077&text=%2A🍴Bienvenido%28a%29+a+Restaurante+Nazca+🧑🏻%E2%80%8D🍳🙂%2A%0ARealizar+mi+reserva%0A%0A%2AA+Nombre+de%3A%2A+" + anombrede + "%0A%2ACantidad+de+Personas%3A%2A++" + cantidadPersonas + "%0A%2AFecha%3A%2A++" + fecha + "%0A%2AHora%3A%2A+" + hora + "%0A%2ADetalles+Adicionales%3A%2A+" + comentarios, '_blank')
 
 		}
 

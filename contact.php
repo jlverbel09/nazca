@@ -22,7 +22,7 @@
 		} else if (mensaje == '') {
 			alert('Ingresa tu mensaje')
 		} else {
-			window.open("https://api.whatsapp.com/send?phone=34640686489&text=Hola+%F0%9F%91%8B%F0%9F%8D%B3+%2ARestarante+Nazca%2A++%F0%9F%8D%B4%0AMi+nombre+es+" + nombre + "%0AMensaje%3A+" + mensaje, '_blank')
+			window.open("https://api.whatsapp.com/send?phone=34612534077&text=Hola+%F0%9F%91%8B%F0%9F%8D%B3+%2ARestarante+Nazca%2A++%F0%9F%8D%B4%0AMi+nombre+es+" + nombre + "%0AMensaje%3A+" + mensaje, '_blank')
 
 		}
 

@@ -7,7 +7,8 @@
                 <div class="overflow-hidden">
                     <h4>Móvil</h4>
                     <p class="lead">
-                        +34 640 68 64 89
+                        +34 640 68 64 89 <br>
+                        +34 612 53 40 77
                     </p>
                 </div>
             </div>
@@ -54,7 +55,10 @@
             <div class="col-lg-3 col-md-6">
                 <h3>Información</h3>
                 <p class="lead">Calle francisco villaespesa 10, Madrid</p>
-                <p class="lead"><a href="+34 640 68 64 89">+34 640 68 64 89</a></p>
+                <p class="lead">
+                    <a href="+34 640 68 64 89">+34 640 68 64 89</a><br>
+                    <a href="+34 612 53 40 77">+34 612 53 40 77</a>
+                </p>
                 <p><a href="nazca28017@gmail.com ">nazca28017@gmail.com</a></p>
             </div>
             <div class="col-lg-3 col-md-6">
