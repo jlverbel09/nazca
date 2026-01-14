@@ -32,7 +32,7 @@
 
 
 
-        <div class="row special-list h-auto" id="listaMenu">
+        <div class="row special-list " id="listaMenu">
             <div id="menu-loading" style="text-align: center; padding: 20px;">Cargando menú...</div>
         </div>
     </div>

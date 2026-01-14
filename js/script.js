@@ -2,7 +2,7 @@ $.ajax({
     url: 'https://georkingweb.com/negocios/services/apis/generales/productos.php?accion=listProductos&id_negocio=7',
     type: 'GET',
     dataType: 'json',
-    beforeSend: function() {
+    beforeSend: function () {
         $('#menu-loading').show();
     },
     success: function (respuesta) {
@@ -18,7 +18,7 @@ $.ajax({
 
         respuesta.forEach(plato => {
             let categoria = normalizeText(plato.categoria || '');
-           listplato += `
+            listplato += `
                 <div class="col-lg-4 col-md-6 special-grid ${categoria} px-1">
                     <div class="gallery-single fix m-2">
                         <img src="${plato.img_url || './images/productos/noexiste.jpg'}" class="img-fluid" alt="${plato.nombre}">
@@ -31,24 +31,25 @@ $.ajax({
                 </div>`;
         });
 
+
         // 1. Insertamos el HTML en el contenedor
-        var $container = $('.special-list'); 
+        var $container = $('.special-list');
+        $container.html(listplato);
 
-        setTimeout(() => {
-            
-            $container.html(listplato);
-        }, 3000);
+        // Initializamos Isotope después de que las imágenes carguen para evitar superposiciones
+        $container.imagesLoaded(function () {
+            var $grid = $container.isotope({
+                itemSelector: '.special-grid',
+                layoutMode: 'masonry',
+                transitionDuration: '0.6s'
+            });
 
-        // 2. Configuramos los botones de filtro
-        $('.special-menu').off('click', 'button').on('click', 'button', function () {
-            $(this).addClass('active').siblings().removeClass('active');
-            var filterValue = $(this).attr('data-filter');
-            if (filterValue === '*') {
-                $('.special-grid').show();
-            } else {
-                $('.special-grid').hide();
-                $(filterValue).show();
-            }
+            // 2. Configuramos los botones de filtro
+            $('.special-menu').off('click', 'button').on('click', 'button', function () {
+                $(this).addClass('active').siblings().removeClass('active');
+                var filterValue = $(this).attr('data-filter');
+                $grid.isotope({ filter: filterValue });
+            });
         });
     },
     error: function (jqXHR, textStatus, errorThrown) {
