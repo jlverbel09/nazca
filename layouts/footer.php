@@ -71,11 +71,11 @@
                     </form>
                 </div> -->
                 <ul class="list-inline f-social">
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@restaurantenazca"><i class="bi bi-tiktok"></i></a></li><!-- 
                     <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
+                    <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/restaurantenazcaperu/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -102,6 +102,7 @@
  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
 <!-- ALL PLUGINS -->
 <script src="js/jquery.superslides.min.js"></script>
 <script src="js/images-loded.min.js"></script>
