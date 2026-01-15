@@ -49,6 +49,11 @@ $.ajax({
                 $(this).addClass('active').siblings().removeClass('active');
                 var filterValue = $(this).attr('data-filter');
                 $grid.isotope({ filter: filterValue });
+
+                // Scroll suave hacia el listado de productos (target: filtro)
+                $('html, body').animate({
+                    scrollTop: $('.special-list').offset().top - 90
+                }, 800);
             });
         });
     },
