@@ -71,9 +71,9 @@
                     </form>
                 </div> -->
                 <ul class="list-inline f-social">
-                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@restaurantenazca"><i class="bi bi-tiktok"></i></a></li><!-- 
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/profile.php?id=61551127323873"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@restaurantenazca"><i class="bi bi-tiktok"></i></a></li> 
+                    <!--<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
                     <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/restaurantenazcaperu/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>
