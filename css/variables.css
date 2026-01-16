@@ -17,7 +17,7 @@
 }
 
 .texto-principal-bordeado {
-   -webkit-text-stroke-width: 0.000000009px;
-    -webkit-text-stroke-color: #000000e0;
+   /* -webkit-text-stroke-width: 0.000000009px;
+    -webkit-text-stroke-color: #000000e0; */
     color: var(--color-principal) !important;
 }
