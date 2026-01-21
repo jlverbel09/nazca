@@ -74,5 +74,13 @@
 <!-- Start Customer Reviews -->
 <?php include 'reseñasGlobal.php' ?>
 <!-- End Customer Reviews -->
-
+<script>
+	$.ajax({
+		url: 'https://negocios.georkingweb.com/services/apis/generales/negocio.php?accion=visitasNegocio&id_negocio=7',
+		type: 'GET',
+		success: function(response) {
+			//console.log('Visita registrada:', response);
+		},
+	});
+</script>
 <?php include './layouts/footer.php';
