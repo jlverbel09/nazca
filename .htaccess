@@ -1,0 +1,13 @@
+RewriteEngine On
+# 1. Redirección externa (SEO): De .php a sin extensión
+# Esto asegura que si alguien escribe "pagina.php", lo envíe a "pagina"
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# 2. Reescritura interna: Servir el archivo .php cuando se pide la URL limpia
+# Verifica si no es un directorio (!-d)
+RewriteCond %{REQUEST_FILENAME} !-d
+# Verifica si el archivo .php correspondiente existe (-f)
+RewriteCond %{REQUEST_FILENAME}.php -f
+# Carga internamente el archivo .php
+RewriteRule ^(.*)$ $1.php [L]
