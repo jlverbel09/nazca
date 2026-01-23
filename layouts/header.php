@@ -14,8 +14,8 @@
     <meta name="description" content="Un lugar que te transporta a nuestro Perú tanto en su carta como en sus sabores. Por eso te ofrecemos comida tradicional.La cocina peruana es una combinación de influencias culturales gastronómicas que acaba siendo un deleite para los seguidores de la gastronomía peruana.">
     <meta name="author" content="GeorkingWeb">
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="https://georkingweb.com/nazca/images/logo2cuadrado.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://georkingweb.com/nazca/images/logo2cuadrado.png">
+    <link rel="shortcut icon" href="https://nazcarestaurante.com/images/logo2cuadrado.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://nazcarestaurante.com/images/logo2cuadrado.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
