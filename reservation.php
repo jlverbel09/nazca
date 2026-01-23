@@ -12,6 +12,7 @@
 <!-- End All Pages -->
 <script>
 	function realizarReserva() {
+
 		var anombrede = document.getElementById('anombrede').value;
 		var cantidadPersonas = document.getElementById('cantidadPersonas').value;
 		var fecha = document.getElementById('fecha').value;
@@ -27,6 +28,15 @@
 		} else if (hora == '') {
 			alert('Selecciona la hora de la reserva')
 		} else {
+
+			$.ajax({
+				url: 'https://negocios.georkingweb.com/services/apis/generales/negocio.php?accion=reservasNegocio&id_negocio=7',
+				type: 'GET',
+				success: function(response) {
+					console.log('Visita registrada:', response);
+				},
+			});
+
 			window.open("https://api.whatsapp.com/send?phone=34612534077&text=%2A🍴Bienvenido%28a%29+a+Restaurante+Nazca+🧑🏻%E2%80%8D🍳🙂%2A%0ARealizar+mi+reserva%0A%0A%2AA+Nombre+de%3A%2A+" + anombrede + "%0A%2ACantidad+de+Personas%3A%2A++" + cantidadPersonas + "%0A%2AFecha%3A%2A++" + fecha + "%0A%2AHora%3A%2A+" + hora + "%0A%2ADetalles+Adicionales%3A%2A+" + comentarios, '_blank')
 
 		}
@@ -122,7 +132,7 @@
 												<option value="22:00">22:00</option>
 												<option value="22:30">22:30</option>
 												<option value="23:00">23:00</option>
-												
+
 											</select>
 											<div class="help-block with-errors"></div>
 										</div>
