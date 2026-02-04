@@ -19,7 +19,7 @@ $enlace = $url[2];
 						<li class="nav-item <?php if($enlace == 'menu'){ echo 'active';} ?>"><a class="nav-link" href="menu">Menú</a></li>
 						<li class="nav-item <?php if($enlace == 'about'){ echo 'active';} ?>"><a class="nav-link" href="about">Sobre Nosotros</a></li>
 						<li class="nav-item <?php if($enlace == 'reservation'){ echo 'active';} ?>"><a class="nav-link" href="reservation">Reservar</a></li>
-						<!-- <li class="nav-item <?php if($enlace == 'stuff'){ echo 'active';} ?>"><a class="nav-link" href="stuff">Nuestro Equipo</a></li> -->
+						<li class="nav-item <?php if($enlace == 'stuff'){ echo 'active';} ?>"><a class="nav-link" href="stuff">Nuestro Equipo</a></li>
 						<li class="nav-item <?php if($enlace == 'gallery'){ echo 'active';} ?>"><a class="nav-link" href="gallery">Galería</a></li>
 						<li class="nav-item <?php if($enlace == 'contact'){ echo 'active';} ?>"><a class="nav-link" href="contact">Contáctanos</a></li>
 						<!-- <li class="nav-item dropdown">

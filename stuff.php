@@ -29,21 +29,21 @@
 			<?php
 			
 				$stuffs = [
-					[
-						'nombre' => 'Anderson',
-						'puesto' => 'Gerente General',
-						'imagen' => 'images/stuff/stuff-img-01.jpg'
-					],
 					/* [
-						'nombre' => 'Sophia',
-						'puesto' => 'Graphic Designer',
+						'nombre' => 'Anderson',
+						'puesto' => 'Jefe de Sala',
+						'imagen' => 'images/stuff/stuff-img-01.jpg'
+					], */
+					[
+						'nombre' => 'Andrea',
+						'puesto' => 'Jefa de Cocina',
 						'imagen' => 'images/stuff/stuff-img-02.jpg'
 					],
 					[
-						'nombre' => 'Liam',
-						'puesto' => 'Project Manager',
+						'nombre' => 'Andrea',
+						'puesto' => 'Camarera',
 						'imagen' => 'images/stuff/stuff-img-03.jpg'
-					] */
+					]
 				];
 			foreach ($stuffs as $i => $stuff) {
 			?>
