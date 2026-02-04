@@ -30,18 +30,18 @@
 			
 				$stuffs = [
 					/* [
-						'nombre' => 'Anderson',
-						'puesto' => 'Jefe de Sala',
+						'nombre' => 'Anderson R.',
+						'puesto' => 'Gerente General',
 						'imagen' => 'images/stuff/stuff-img-01.jpg'
 					], */
 					[
-						'nombre' => 'Andrea',
+						'nombre' => 'Andrea C.',
 						'puesto' => 'Jefa de Cocina',
 						'imagen' => 'images/stuff/stuff-img-02.jpg'
 					],
 					[
 						'nombre' => 'Andrea',
-						'puesto' => 'Camarera',
+						'puesto' => 'Camarera L.',
 						'imagen' => 'images/stuff/stuff-img-03.jpg'
 					]
 				];
@@ -54,10 +54,10 @@
 						<div class="team-content">
 							<h3 class="title"><?= $stuffs[$i]['nombre'] ?></h3>
 							<span class="post"><?= $stuffs[$i]['puesto'] ?></span>
-							<ul class="social">
+							<!-- <ul class="social">
 								<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
