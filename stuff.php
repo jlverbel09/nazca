@@ -40,8 +40,8 @@
 						'imagen' => 'images/stuff/stuff-img-02.jpg'
 					],
 					[
-						'nombre' => 'Andrea',
-						'puesto' => 'Camarera L.',
+						'nombre' => 'Andrea  L.',
+						'puesto' => 'Camarera',
 						'imagen' => 'images/stuff/stuff-img-03.jpg'
 					]
 				];
