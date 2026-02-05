@@ -35,12 +35,12 @@
 						'imagen' => 'images/stuff/stuff-img-01.jpg'
 					], */
 					[
-						'nombre' => 'Andrea C.',
+						'nombre' => 'Andrea',
 						'puesto' => 'Jefa de Cocina',
 						'imagen' => 'images/stuff/stuff-img-02.jpg'
 					],
 					[
-						'nombre' => 'Andrea  L.',
+						'nombre' => 'Zheila',
 						'puesto' => 'Camarera',
 						'imagen' => 'images/stuff/stuff-img-03.jpg'
 					]
