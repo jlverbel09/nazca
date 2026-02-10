@@ -17,7 +17,7 @@
                 <div class="overflow-hidden">
                     <h4>Email</h4>
                     <p class="lead">
-                        nazca28017@gmail.com 
+                        nazca28017@gmail.com
                     </p>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3>Redes Sociales</h3>
-               <!--  <div class="subscribe_form">
+                <!--  <div class="subscribe_form">
                     <form class="subscribe_form">
                         <input name="EMAIL" id="subs-email" class="form_input" placeholder="Correo Electrónico..." type="email">
                         <button type="submit" class="submit bg-principal">SUSCRIBIRME</button>
@@ -72,7 +72,7 @@
                 </div> -->
                 <ul class="list-inline f-social">
                     <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/profile.php?id=61551127323873"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@restaurantenazca"><i class="bi bi-tiktok"></i></a></li> 
+                    <li class="list-inline-item"><a target="_blank" href="https://www.tiktok.com/@restaurantenazca"><i class="bi bi-tiktok"></i></a></li>
                     <!--<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
                     <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/restaurantenazcaperu/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -101,7 +101,7 @@
 <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 <!-- ALL PLUGINS -->
 <script src="js/jquery.superslides.min.js"></script>
 <script src="js/images-loded.min.js"></script>
@@ -111,6 +111,19 @@
 <script src="js/contact-form-script.js"></script>
 <script src="js/script.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    $.ajax({
+        url: 'https://negocios.georkingweb.com/services/apis/generales/negocio.php?accion=contadorVisitasNegocio&id_negocio=7',
+        type: 'GET',
+        success: function(response) {
+
+            $('.vistas').html('<i class="bi bi-eye"></i> ' + response[0].visitas);
+        },
+        error: function(error) {
+            console.error('Error al actualizar el contador de visitas:', error);
+        }
+    });
+</script>
 
 </body>
 

@@ -19,6 +19,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">

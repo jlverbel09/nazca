@@ -74,13 +74,68 @@
 <!-- Start Customer Reviews -->
 <?php include 'reseñasGlobal.php' ?>
 <!-- End Customer Reviews -->
+ <script>
+	
+	$.ajax({
+		url: 'https://negocios.georkingweb.com/services/apis/generales/anuncio.php?accion=anuncioInicial&id_negocio=7',
+		type: 'GET',
+		success: function(response) {
+			
+			if (response.estado) {
+				$('#modal .modal-body').html(`
+					<img width="100%" src="https://negocios.georkingweb.com/${response.imagen}" alt="">
+					<p class="mt-1 p-1">Descubre la auténtica experiencia peruana en cada plato y cóctel. ¡Esperamos verte pronto!</p>
+				`);
+				mostrarmodal();
+			}
+			else{
+				console.log('No hay anuncio inicial para mostrar.');
+			}
+
+		},
+	});
+ </script>
+
+<div class="modal" id="modal" tabindex="-1" role="dialog" style="z-index: 9999;">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-dark justify-content-center">
+				<div class="d-flex flex-column align-items-center">
+					<h5 class="modal-title text-white h4 p-0 m-0">¡Bienvenido!</h5>
+					<h6 class="text-principal h5 m-0 p-0">Disfruta la experiencia NAZCA!</h6>
+				</div>
+				<button type="button" class="close cerrarMenu" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body  text-center" style="background-color: #111111;">
+		
+
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-success col" onclick="window.open('https://api.whatsapp.com/send?phone=34612534077&text=Hola+%F0%9F%91%8B%F0%9F%8D%B3+%2ARestarante+Nazca%2A++%F0%9F%8D%B4%0AMe+gustarìa+pedir+el+menú+del+día', '_blank')"><i class="bi bi-whatsapp"> HAZ TU PEDIDO!</i></button>
+				<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
 <script>
+	
+
+	function mostrarmodal() {
+		setTimeout(() => {
+
+			$('#modal').modal('show');
+
+		}, 1000);
+	}
+
+
+
+
 	$.ajax({
 		url: 'https://negocios.georkingweb.com/services/apis/generales/negocio.php?accion=visitasNegocio&id_negocio=7',
 		type: 'GET',
-		success: function(response) {
-			console.log('Visita registrada:', response);
-		},
 	});
 </script>
 <?php include './layouts/footer.php';
