@@ -103,7 +103,7 @@
 									<div class="col-md-6">
 										<div class="form-group">
 											<label>Fecha</label>
-											<input id="fecha" class="datepicker picker__input form-control" name="date" type="date" value="" equired>
+											<input id="fecha" class="datepicker picker__input form-control" min="<?= date('Y-m-d') ?>" name="date" type="date" value="" equired>
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
