@@ -39,7 +39,7 @@
 
 //			window.open("https://api.whatsapp.com/send?phone=34612534077&text=%2A🍴Bienvenido%28a%29+a+Restaurante+Nazca+🧑🏻%E2%80%8D🍳🙂%2A%0ARealizar+mi+reserva%0A%0A%2AA+Nombre+de%3A%2A+" + anombrede + "%0A%2ACantidad+de+Personas%3A%2A++" + cantidadPersonas + "%0A%2AFecha%3A%2A++" + fecha + "%0A%2AHora%3A%2A+" + hora + "%0A%2ADetalles+Adicionales%3A%2A+" + comentarios, '_blank')
 
-			window.open("https://wa.me/34612534077?text=%2A_🍴RESERVACION%20CONFIRMADA%20-%20Restaurante%20Nazca_%2A%0A%0AHola%21%20Muchas%20gracias%20por%20elegirnos.%0A%0ACon%20el%20envio%20de%20este%20mensaje%2C%20%2Atu%20reserva%20ha%20quedado%20registrada%20y%20asegurada%20exitosamente%2A%20bajo%20los%20siguientes%20detalles%3A%0A%0A%2ANombre%3A%2A%20" + anombrede + "%0A%2ACantidad%3A%2A%20" + cantidadPersonas + "%0A%2AFecha%3A%2A%20" + fecha + "%0A%2AHora%3A%2A%20" + hora + "%0A%0A%2A%21Todo%20listo%21%2A%20Agradecemos%20tu%20preferencia.%0A%0A%21Te%20esperamos%21", '_blank');
+			window.open("https://wa.me/34612534077?text=%2A_RESERVACION%20CONFIRMADA%20-%20Restaurante%20Nazca_%2A%0A%0AHola%21%20Muchas%20gracias%20por%20elegirnos.%0A%0ACon%20el%20envio%20de%20este%20mensaje%2C%20%2Atu%20reserva%20ha%20quedado%20registrada%20y%20asegurada%20exitosamente%2A%20bajo%20los%20siguientes%20detalles%3A%0A%0A%2ANombre%3A%2A%20" + anombrede + "%0A%2ACantidad%3A%2A%20" + cantidadPersonas + "%0A%2AFecha%3A%2A%20" + fecha + "%0A%2AHora%3A%2A%20" + hora + "%0A%0A%2A%21Todo%20listo%21%2A%20Agradecemos%20tu%20preferencia.%0A%0A%21Te%20esperamos%21", '_blank');
 		}	
 
 	}
